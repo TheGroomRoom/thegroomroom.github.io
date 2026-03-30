@@ -52,11 +52,10 @@ header .container {
 }
 
 .about-img {
-    width: 700px;   /* or any value */
+    width: min(90vw, 700px);
     height: auto;
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .logo {
@@ -71,9 +70,11 @@ header .container {
     border-radius: 8px;
 }
 .logo2-img {
-    height: 500px;
-    width: auto;
+    width: min(90vw, 500px);
+    height: auto;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 .logo-text h1 {
     font-size: 2rem;
